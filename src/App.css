@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+hr {
+  border-top: 1.8px solid black;
+  max-width: 80%;
+}
+
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('components/SEGA.woff') format('woff');
+}
+
+h1 {
+  font-family: "SEGA LOGO FONT";
+  color: #3ca9c7;
+  padding: 19px;
+  font-size: 3rem;
+}
+
+.container-fluid {
+  max-width: 78%;
+  align-items: center;
+}
